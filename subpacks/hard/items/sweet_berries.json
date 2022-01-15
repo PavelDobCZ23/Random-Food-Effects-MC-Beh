@@ -1,0 +1,99 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "minecraft:sweet_berries"
+    },
+    "components": {
+      "minecraft:use_duration": 32,
+      "minecraft:food": {
+        "nutrition": 2,
+        "saturation_modifier": "low",
+        "is_meat": false,
+        "effects": [
+          {
+            "name": "slowness",
+            "chance": 0.0833333333,
+            "duration": 25,
+            "amplifier": 0
+          },
+          {
+            "name": "mining_fatigue",
+            "chance": 0.0833333333,
+            "duration": 25,
+            "amplifier": 0
+          },
+          {
+            "name": "instant_damage",
+            "chance": 0.0833333333,
+            "duration": 1,
+            "amplifier": 0
+          },
+          {
+            "name": "nausea",
+            "chance": 0.0833333333,
+            "duration": 25,
+            "amplifier": 0
+          },
+          {
+            "name": "blindness",
+            "chance": 0.0833333333,
+            "duration": 25,
+            "amplifier": 0
+          },
+          {
+            "name": "hunger",
+            "chance": 0.0833333333,
+            "duration": 25,
+            "amplifier": 0
+          },
+          {
+            "name": "weakness",
+            "chance": 0.0833333333,
+            "duration": 25,
+            "amplifier": 0
+          },
+          {
+            "name": "poison",
+            "chance": 0.0833333333,
+            "duration": 25,
+            "amplifier": 0
+          },
+          {
+            "name": "wither",
+            "chance": 0.0833333333,
+            "duration": 15,
+            "amplifier": 0
+          },
+          {
+            "name": "fatal_poison",
+            "chance": 0.0833333333,
+            "duration": 15,
+            "amplifier": 0
+          },
+          {
+            "name": "bad_omen",
+            "chance": 0.0833333333,
+            "duration": 25,
+            "amplifier": 0
+          },
+          {
+            "name": "levitation",
+            "chance": 0.0833333333,
+            "duration": 25,
+            "amplifier": 0
+          }
+        ]
+      },
+      "minecraft:seed": {
+        "crop_result": "sweet_berry_bush",
+        "plant_at": [
+          "grass",
+          "dirt",
+          "podzol",
+          "moss_block"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "minecraft:pufferfish"
+    },
+    "components": {
+      "minecraft:use_duration": 32,
+      "minecraft:max_damage": 0,
+      "minecraft:stacked_by_data": true,
+      "minecraft:food": {
+        "nutrition": 1,
+        "saturation_modifier": "poor",
+        "effects": [
+          {
+            "name": "poison",
+            "duration": 60,
+            "amplifier": 3
+          },
+          {
+            "name": "nausea",
+            "duration": 15,
+            "amplifier": 1
+          },
+          {
+            "name": "hunger",
+            "duration": 15,
+            "amplifier": 2
+          },
+          {
+            "name": "slowness",
+            "chance": 0.0833333333,
+            "duration": 25,
+            "amplifier": 0
+          },
+          {
+            "name": "mining_fatigue",
+            "chance": 0.0833333333,
+            "duration": 25,
+            "amplifier": 0
+          },
+          {
+            "name": "instant_damage",
+            "chance": 0.0833333333,
+            "duration": 1,
+            "amplifier": 0
+          },
+          {
+            "name": "nausea",
+            "chance": 0.0833333333,
+            "duration": 25,
+            "amplifier": 0
+          },
+          {
+            "name": "blindness",
+            "chance": 0.0833333333,
+            "duration": 25,
+            "amplifier": 0
+          },
+          {
+            "name": "hunger",
+            "chance": 0.0833333333,
+            "duration": 25,
+            "amplifier": 0
+          },
+          {
+            "name": "weakness",
+            "chance": 0.0833333333,
+            "duration": 25,
+            "amplifier": 0
+          },
+          {
+            "name": "poison",
+            "chance": 0.0833333333,
+            "duration": 25,
+            "amplifier": 0
+          },
+          {
+            "name": "wither",
+            "chance": 0.0833333333,
+            "duration": 15,
+            "amplifier": 0
+          },
+          {
+            "name": "fatal_poison",
+            "chance": 0.0833333333,
+            "duration": 15,
+            "amplifier": 0
+          },
+          {
+            "name": "bad_omen",
+            "chance": 0.0833333333,
+            "duration": 25,
+            "amplifier": 0
+          },
+          {
+            "name": "levitation",
+            "chance": 0.0833333333,
+            "duration": 25,
+            "amplifier": 0
+          }
+        ]
+      }
+    }
+  }
+}

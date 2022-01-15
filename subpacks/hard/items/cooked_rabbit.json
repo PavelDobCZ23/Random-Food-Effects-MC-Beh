@@ -1,0 +1,89 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "minecraft:cooked_rabbit"
+    },
+    "components": {
+      "minecraft:use_duration": 32,
+      "minecraft:food": {
+        "nutrition": 5,
+        "saturation_modifier": "normal",
+        "effects": [
+          {
+            "name": "slowness",
+            "chance": 0.0833333333,
+            "duration": 25,
+            "amplifier": 2
+          },
+          {
+            "name": "mining_fatigue",
+            "chance": 0.0833333333,
+            "duration": 25,
+            "amplifier": 2
+          },
+          {
+            "name": "instant_damage",
+            "chance": 0.0833333333,
+            "duration": 1,
+            "amplifier": 0
+          },
+          {
+            "name": "nausea",
+            "chance": 0.0833333333,
+            "duration": 25,
+            "amplifier": 2
+          },
+          {
+            "name": "blindness",
+            "chance": 0.0833333333,
+            "duration": 25,
+            "amplifier": 2
+          },
+          {
+            "name": "hunger",
+            "chance": 0.0833333333,
+            "duration": 25,
+            "amplifier": 2
+          },
+          {
+            "name": "weakness",
+            "chance": 0.0833333333,
+            "duration": 25,
+            "amplifier": 2
+          },
+          {
+            "name": "poison",
+            "chance": 0.0833333333,
+            "duration": 25,
+            "amplifier": 2
+          },
+          {
+            "name": "wither",
+            "chance": 0.0833333333,
+            "duration": 15,
+            "amplifier": 2
+          },
+          {
+            "name": "fatal_poison",
+            "chance": 0.0833333333,
+            "duration": 15,
+            "amplifier": 2
+          },
+          {
+            "name": "bad_omen",
+            "chance": 0.0833333333,
+            "duration": 25,
+            "amplifier": 2
+          },
+          {
+            "name": "levitation",
+            "chance": 0.0833333333,
+            "duration": 25,
+            "amplifier": 2
+          }
+        ]
+      }
+    }
+  }
+}

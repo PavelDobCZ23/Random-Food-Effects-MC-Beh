@@ -1,0 +1,98 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "minecraft:chorus_fruit"
+    },
+    "components": {
+      "minecraft:use_duration": 32,
+      "minecraft:food": {
+        "nutrition": 4,
+        "saturation_modifier": "low",
+        "on_use_action": "chorus_teleport",
+        "on_use_range": [
+          8,
+          8,
+          8
+        ],
+        "cooldown_type": "chorusfruit",
+        "cooldown_time": 20,
+        "can_always_eat": true,
+        "effects": [
+          {
+            "name": "slowness",
+            "chance": 0.0833333333,
+            "duration": 25,
+            "amplifier": 1
+          },
+          {
+            "name": "mining_fatigue",
+            "chance": 0.0833333333,
+            "duration": 25,
+            "amplifier": 1
+          },
+          {
+            "name": "instant_damage",
+            "chance": 0.0833333333,
+            "duration": 1,
+            "amplifier": 0
+          },
+          {
+            "name": "nausea",
+            "chance": 0.0833333333,
+            "duration": 25,
+            "amplifier": 1
+          },
+          {
+            "name": "blindness",
+            "chance": 0.0833333333,
+            "duration": 25,
+            "amplifier": 1
+          },
+          {
+            "name": "hunger",
+            "chance": 0.0833333333,
+            "duration": 25,
+            "amplifier": 1
+          },
+          {
+            "name": "weakness",
+            "chance": 0.0833333333,
+            "duration": 25,
+            "amplifier": 1
+          },
+          {
+            "name": "poison",
+            "chance": 0.0833333333,
+            "duration": 25,
+            "amplifier": 1
+          },
+          {
+            "name": "wither",
+            "chance": 0.0833333333,
+            "duration": 15,
+            "amplifier": 1
+          },
+          {
+            "name": "fatal_poison",
+            "chance": 0.0833333333,
+            "duration": 15,
+            "amplifier": 1
+          },
+          {
+            "name": "bad_omen",
+            "chance": 0.0833333333,
+            "duration": 25,
+            "amplifier": 1
+          },
+          {
+            "name": "levitation",
+            "chance": 0.0833333333,
+            "duration": 25,
+            "amplifier": 1
+          }
+        ]
+      }
+    }
+  }
+}

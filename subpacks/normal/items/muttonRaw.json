@@ -1,0 +1,191 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "minecraft:muttonRaw"
+    },
+    "components": {
+      "minecraft:use_duration": 32,
+      "minecraft:food": {
+        "nutrition": 2,
+        "saturation_modifier": "low",
+        "effects": [
+          {
+            "name": "speed",
+            "chance": 0.0282227041,
+            "duration": 20,
+            "amplifier": 0
+          },
+          {
+            "name": "haste",
+            "chance": 0.0282227041,
+            "duration": 20,
+            "amplifier": 0
+          },
+          {
+            "name": "strength",
+            "chance": 0.0282227041,
+            "duration": 20,
+            "amplifier": 0
+          },
+          {
+            "name": "instant_health",
+            "chance": 0.0282227041,
+            "duration": 1,
+            "amplifier": 0
+          },
+          {
+            "name": "jump_boost",
+            "chance": 0.0282227041,
+            "duration": 20,
+            "amplifier": 0
+          },
+          {
+            "name": "regeneration",
+            "chance": 0.0282227041,
+            "duration": 20,
+            "amplifier": 0
+          },
+          {
+            "name": "resistance",
+            "chance": 0.0282227041,
+            "duration": 20,
+            "amplifier": 0
+          },
+          {
+            "name": "fire_resistance",
+            "chance": 0.0282227041,
+            "duration": 20,
+            "amplifier": 0
+          },
+          {
+            "name": "water_breathing",
+            "chance": 0.0282227041,
+            "duration": 20,
+            "amplifier": 0
+          },
+          {
+            "name": "invisibility",
+            "chance": 0.0282227041,
+            "duration": 20,
+            "amplifier": 0
+          },
+          {
+            "name": "night_vision",
+            "chance": 0.0282227041,
+            "duration": 20,
+            "amplifier": 0
+          },
+          {
+            "name": "health_boost",
+            "chance": 0.0282227041,
+            "duration": 20,
+            "amplifier": 0
+          },
+          {
+            "name": "absorption",
+            "chance": 0.0282227041,
+            "duration": 20,
+            "amplifier": 0
+          },
+          {
+            "name": "saturation",
+            "chance": 0.0282227041,
+            "duration": 20,
+            "amplifier": 0
+          },
+          {
+            "name": "conduit_power",
+            "chance": 0.0282227041,
+            "duration": 20,
+            "amplifier": 0
+          },
+          {
+            "name": "slow_falling",
+            "chance": 0.0282227041,
+            "duration": 20,
+            "amplifier": 0
+          },
+          {
+            "name": "village_hero",
+            "chance": 0.0282227041,
+            "duration": 20,
+            "amplifier": 0
+          },
+          {
+            "name": "slowness",
+            "chance": 0.0442654849,
+            "duration": 25,
+            "amplifier": 0
+          },
+          {
+            "name": "mining_fatigue",
+            "chance": 0.0442654849,
+            "duration": 25,
+            "amplifier": 0
+          },
+          {
+            "name": "instant_damage",
+            "chance": 0.0442654849,
+            "duration": 1,
+            "amplifier": 0
+          },
+          {
+            "name": "nausea",
+            "chance": 0.0442654849,
+            "duration": 25,
+            "amplifier": 0
+          },
+          {
+            "name": "blindness",
+            "chance": 0.0442654849,
+            "duration": 25,
+            "amplifier": 0
+          },
+          {
+            "name": "hunger",
+            "chance": 0.0442654849,
+            "duration": 25,
+            "amplifier": 0
+          },
+          {
+            "name": "weakness",
+            "chance": 0.0442654849,
+            "duration": 25,
+            "amplifier": 0
+          },
+          {
+            "name": "poison",
+            "chance": 0.0442654849,
+            "duration": 25,
+            "amplifier": 0
+          },
+          {
+            "name": "wither",
+            "chance": 0.0442654849,
+            "duration": 15,
+            "amplifier": 0
+          },
+          {
+            "name": "fatal_poison",
+            "chance": 0.0442654849,
+            "duration": 15,
+            "amplifier": 0
+          },
+          {
+            "name": "bad_omen",
+            "chance": 0.0442654849,
+            "duration": 25,
+            "amplifier": 0
+          },
+          {
+            "name": "levitation",
+            "chance": 0.0344827586,
+            "duration": 25,
+            "amplifier": 0
+          }
+        ]
+      }
+    }
+  }
+}

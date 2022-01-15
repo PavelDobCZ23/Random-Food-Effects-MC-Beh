@@ -1,0 +1,121 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "minecraft:cooked_salmon"
+    },
+    "components": {
+      "minecraft:use_duration": 32,
+      "minecraft:max_damage": 0,
+      "minecraft:stacked_by_data": true,
+      "minecraft:food": {
+        "nutrition": 6,
+        "saturation_modifier": "good",
+        "effects": [
+          {
+            "name": "speed",
+            "chance": 0.0588235294,
+            "duration": 20,
+            "amplifier": 2
+          },
+          {
+            "name": "haste",
+            "chance": 0.0588235294,
+            "duration": 20,
+            "amplifier": 2
+          },
+          {
+            "name": "strength",
+            "chance": 0.0588235294,
+            "duration": 20,
+            "amplifier": 2
+          },
+          {
+            "name": "instant_health",
+            "chance": 0.0588235294,
+            "duration": 1,
+            "amplifier": 0
+          },
+          {
+            "name": "jump_boost",
+            "chance": 0.0588235294,
+            "duration": 20,
+            "amplifier": 2
+          },
+          {
+            "name": "regeneration",
+            "chance": 0.0588235294,
+            "duration": 20,
+            "amplifier": 2
+          },
+          {
+            "name": "resistance",
+            "chance": 0.0588235294,
+            "duration": 20,
+            "amplifier": 2
+          },
+          {
+            "name": "fire_resistance",
+            "chance": 0.0588235294,
+            "duration": 20,
+            "amplifier": 2
+          },
+          {
+            "name": "water_breathing",
+            "chance": 0.0588235294,
+            "duration": 20,
+            "amplifier": 2
+          },
+          {
+            "name": "invisibility",
+            "chance": 0.0588235294,
+            "duration": 20,
+            "amplifier": 2
+          },
+          {
+            "name": "night_vision",
+            "chance": 0.0588235294,
+            "duration": 20,
+            "amplifier": 2
+          },
+          {
+            "name": "health_boost",
+            "chance": 0.0588235294,
+            "duration": 20,
+            "amplifier": 2
+          },
+          {
+            "name": "absorption",
+            "chance": 0.0588235294,
+            "duration": 20,
+            "amplifier": 2
+          },
+          {
+            "name": "saturation",
+            "chance": 0.0588235294,
+            "duration": 20,
+            "amplifier": 2
+          },
+          {
+            "name": "conduit_power",
+            "chance": 0.0588235294,
+            "duration": 20,
+            "amplifier": 2
+          },
+          {
+            "name": "slow_falling",
+            "chance": 0.0588235294,
+            "duration": 20,
+            "amplifier": 2
+          },
+          {
+            "name": "village_hero",
+            "chance": 0.0588235294,
+            "duration": 20,
+            "amplifier": 2
+          }
+        ]
+      }
+    }
+  }
+}

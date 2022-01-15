@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "minecraft:cake"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "AAA",
+      "BBB",
+      "BBB"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:bucket",
+        "data": 1
+      },
+      "B": {
+        "item": "minecraft:bedrock"
+      }
+    },
+    "result": [
+      { "item": "minecraft:cake" },
+      { "item": "minecraft:bucket", "count": 3, "data": 0 }
+    ]
+  }
+}

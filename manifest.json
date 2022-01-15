@@ -1,0 +1,35 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "If you want to experience food madness with random effects on you every time you eat, then this is pack just for you! §1Made by PavelDobCZ23",
+        "name": "Random Food Effects Pack",
+        "uuid": "dc57ea9d-d230-46a8-9c2e-116c3c68de0e",
+        "version": [ 1, 1, 0 ],
+        "min_engine_version": [ 1, 17, 0 ]
+    },
+    "modules": [
+        {
+            "description": "If you want to experience food madness with random effects on you every time you eat, then this is pack just for you! §1Made by PavelDobCZ23",
+            "type": "data",
+            "uuid": "4635195e-4d8e-48ce-8a17-f075d57fe8a5",
+            "version": [1, 1, 0]
+        }
+    ],
+    "subpacks": [
+        {
+             "folder_name": "easy",
+             "name": "§aEasy Mode",
+             "memory_tier": 0
+        },
+        {
+            "folder_name": "hard",
+            "name": "§4Hard Mode",
+            "memory_tier": 1
+       },        
+       {
+            "folder_name": "normal",
+            "name": "Normal Mode",
+            "memory_tier": 2
+       }
+   ]
+}
